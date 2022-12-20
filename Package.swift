@@ -1,9 +1,9 @@
-// swift-tools-version:5.1
+// swift-tools-version:5.7
 import PackageDescription
 
 let package = Package(
     name: "Kingfisher",
-    platforms: [.iOS(.v12), .macOS(.v10_14), .tvOS(.v12), .watchOS(.v5)],
+    platforms: [.iOS(.v14), .macOS(.v11), .tvOS(.v14), .watchOS(.v9)],
     products: [
         .library(name: "Kingfisher", targets: ["Kingfisher"])
     ],
